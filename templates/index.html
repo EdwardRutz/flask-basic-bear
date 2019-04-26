@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+    <header></header>
+    <h1>Basic Bear Generator</h1>
+    
+    <img src="/static/img/bear_avatar.svg">
+    
+    <form action="{{ url_for('save') }}" method="POST">        
+        <label>Name Your Bear</label>
+        <input type="text" name="name" value="" autofocus>
+        <input type="submit" value="Let's build a bear!">
+    </form>
+    
+</body>
+</html>
